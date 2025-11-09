@@ -15,6 +15,7 @@
 . ./install-ghostty.sh
 . ./install-zen-browser.sh
 . ./install-lazygit.sh
+. ./install-emacs.sh
 . ./install-claude-code.sh
 
 # Install and configure Hyprland
