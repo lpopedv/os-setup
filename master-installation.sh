@@ -5,6 +5,7 @@
 . ./install-asdf.sh
 . ./install-fish-shell.sh
 . ./install-cmake.sh
+. ./install-watchman.sh
 
 # Set fish as default shell
 . ./set-shell.sh
