@@ -4,6 +4,7 @@
 . ./install-stow.sh
 . ./install-asdf.sh
 . ./install-fish-shell.sh
+. ./install-cmake.sh
 
 # Set fish as default shell
 . ./set-shell.sh
