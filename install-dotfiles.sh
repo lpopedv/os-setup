@@ -27,11 +27,13 @@ if [ $? -eq 0 ]; then
   echo "Removing old configs"
   rm -rf ~/.config/nvim
   rm -rf ~/.config/fish
+  rm -rf ~/.config/doom
 
   cd "$REPO_NAME"
 
   stow nvim
   stow fish
+  stow doom 
 else
   echo "Failed to clone the repository"
   cd "$ORIGINAL_DIR"
