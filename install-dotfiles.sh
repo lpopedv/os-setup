@@ -10,7 +10,7 @@ is_stow_installed() {
 
 if ! is_stow_installed; then
   echo "Install stow first"
-  exit 1
+  return 1
 fi
 
 cd ~
@@ -34,5 +34,8 @@ if [ $? -eq 0 ]; then
   stow fish
 else
   echo "Failed to clone the repository"
-  exit 1
+  cd "$ORIGINAL_DIR"
+  return 1
 fi
+
+cd "$ORIGINAL_DIR"
