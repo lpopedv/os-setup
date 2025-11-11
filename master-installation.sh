@@ -19,7 +19,8 @@
 . ./install-lazygit.sh
 . ./install-direnv.sh
 . ./install-emacs.sh
-. ./install-claude-code.sh
+.. ./install-claude-code.sh
+ ./install-slack.sh
 
 # Install and configure Hyprland
 . ./install-hyprland-overrides.sh
