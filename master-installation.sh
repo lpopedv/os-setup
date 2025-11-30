@@ -20,7 +20,6 @@
 . ./install-direnv.sh
 . ./install-emacs.sh
 . ./install-claude-code.sh
-. ./install-aether.sh
 . ./install-slack.sh
 
 # Install and configure Hyprland
