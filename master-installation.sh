@@ -24,3 +24,4 @@
 
 # Install and configure Hyprland
 . ./install-hyprland-overrides.sh
+. ./install-hypridle-overrides.sh
