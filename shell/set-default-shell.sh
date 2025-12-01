@@ -2,7 +2,7 @@
 
 # Check if fish is installed
 if ! command -v fish &>/dev/null; then
-    echo "Fish is not installed. Please run ./install-packages.sh first."
+    echo "Fish is not installed. Please run ./main.sh and install."
     return 1
 fi
 
